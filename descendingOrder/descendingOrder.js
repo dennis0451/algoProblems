@@ -8,8 +8,6 @@ function descendingOrder(n) {
 
     let largestNum = parseInt(num.sort((a,b) => b-a).join(''))
 
-
-
     return largestNum
 }
 
