@@ -3,6 +3,8 @@ def capitalize(s):
     odd = ''
     final = [f'{even}', f'{odd}']
     for letter in range(len(s)):
-        print(s[letter])
+        if letter % 2 == 0:
+            for
+            
     pass
 print(capitalize("abcdef"))
