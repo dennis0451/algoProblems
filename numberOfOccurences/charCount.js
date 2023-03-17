@@ -1,24 +1,24 @@
-// function count(string) {
-//   let histogram = {};
-//   let string_arr = []
+function count(string) {
+  let histogram = {};
+  let string_arr = []
 
-//   for(let h in string){
-//     if(string[h] != ' '){
-//         string_arr.push(string[h])
+  for(let h in string){
+    if(string[h] != ' '){
+        string_arr.push(string[h])
+    }
+}
+string_arr.sort()
+console.log(string_arr)
+
+//   for (let i = 0; i < string.length; i++) {
+//     let char = string[i];
+//     if (!histogram[char]) {
+//       histogram[char] = 0;
 //     }
-// }
-// string_arr.sort()
-// console.log(string_arr)
-
-// //   for (let i = 0; i < string.length; i++) {
-// //     let char = string[i];
-// //     if (!histogram[char]) {
-// //       histogram[char] = 0;
-// //     }
-// //     histogram[char]++;
-// //   }
-//   return histogram;
-// }
+//     histogram[char]++;
+//   }
+  return histogram;
+}
 
 console.log(hash("dennis i a nerd"));
 
